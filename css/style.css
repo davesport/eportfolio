@@ -1,0 +1,119 @@
+/* ---------------------------------------------------
+------------------------------------------------------
+PAGE LAYOUT - CONSISTENT THROUGH ALL PAGES 
+------------------------------------------------------
+----------------------------------------------------*/
+
+@media (min-width: 800px) {
+    .content-wrapper {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 2fr; 
+        grid-template-areas: "banner banner" "nav nav" "aside main" "footer footer";
+    }
+
+    .banner {
+        grid-area: banner;
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    aside {
+        grid-area: aside;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}
+/* End of page layout */ 
+
+body {
+    line-height: 150%;
+}
+
+/* ---------------------------------------------------
+------------------------------------------------------
+PAGE ONE STYLING 
+------------------------------------------------------
+----------------------------------------------------*/
+
+.banner {
+    background-color: lightcoral;
+    padding: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* nav bar layout */ 
+
+nav {
+    width: 100%;
+    background-color:rgb(233, 90, 90);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(233, 90, 90);
+
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  nav li a:hover {
+    background-color: rgb(206, 47, 47);
+    color: white;
+  }
+
+  /* end of nav bar layout */ 
+
+aside {
+    background-color: rgb(240, 156, 156);
+    padding: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    background-color: rgb(255, 193, 193);
+    padding: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sadielibrary {
+    width: 400px;
+    height: auto;
+    display: block;
+    align-content: center;
+}
+footer {
+    background-color: lightcoral;
+    padding: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/* END OF PAGE 1 STYLING */ 
+
+/* ---------------------------------------------------
+------------------------------------------------------
+PAGE TWO STYLING 
+------------------------------------------------------
+----------------------------------------------------*/
