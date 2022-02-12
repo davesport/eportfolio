@@ -35,8 +35,11 @@ PAGE LAYOUT - CONSISTENT THROUGH ALL PAGES
 /* End of page layout */ 
 
 body {
-    line-height: 150%;
+    line-height: 1.6em;
+    font-family: sans-serif;
 }
+
+/* ON THE NAV BAR --- BACKGROUND IMAGE = GRADIENT BETWEEN TEAL #1CF5D0 AND LIGHT PURPLE #CD9FFF */
 
 /* ---------------------------------------------------
 ------------------------------------------------------
@@ -45,9 +48,10 @@ PAGE ONE STYLING
 ----------------------------------------------------*/
 
 .banner {
-    background-color: lightcoral;
+    background-color:   #ccccff;
     padding: 3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.2em;
+    font-family: sans-serif;
     text-align: center;
 }
 
@@ -55,19 +59,27 @@ PAGE ONE STYLING
 
 nav {
     width: 100%;
-    background-color:rgb(233, 90, 90);
+    font-family: sans-serif;
+    background-color:#9999ff;
 }
+
+/* COLORS FOR THE IMAGE GRADIENT: 
+    green: #8CFFEC
+    blue: #A0BEF0
+    purple: #CD9FFF
+*/ 
+ 
 nav ul {
     list-style-type: none;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(233, 90, 90);
-
   }
   
   nav li {
     float: left;
+    font-family: sans-serif;
   }
   
   nav li a {
@@ -80,22 +92,22 @@ nav ul {
   
   /* Change the link color to #111 (black) on hover */
   nav li a:hover {
-    background-color: rgb(206, 47, 47);
+    background-color: #b174f1;
     color: white;
   }
 
   /* end of nav bar layout */ 
 
 aside {
-    background-color: rgb(240, 156, 156);
+    background-color: #99bbff;
     padding: 3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 main {
-    background-color: rgb(255, 193, 193);
+    background-color: #b3d9ff;
     padding: 3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 .sadielibrary {
@@ -104,10 +116,11 @@ main {
     display: block;
     align-content: center;
 }
+
 footer {
-    background-color: lightcoral;
+    background-color:  #ccccff;
     padding: 3em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     text-align: center;
 }
 /* END OF PAGE 1 STYLING */ 
@@ -117,3 +130,31 @@ footer {
 PAGE TWO STYLING 
 ------------------------------------------------------
 ----------------------------------------------------*/
+.box {
+    display: block;
+    padding: 10px;
+    background-color: #7cacff;
+}
+
+/* ---------------------------------------------------
+------------------------------------------------------
+HACKER PAGE STYLING 
+------------------------------------------------------
+----------------------------------------------------*/
+.hackerhead {
+    padding: 3em;
+}
+.hackerpage {
+    background-color: #A0BEF0;
+}
+.hackertitle {
+    text-align: center;
+}
+
+.hackerpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+}
