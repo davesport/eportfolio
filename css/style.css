@@ -56,6 +56,10 @@ PAGE ONE STYLING
 }
 
 /* nav bar layout */ 
+.nav {
+    background-image: url("../images/gradient.png");
+    width: 100%;
+}
 
 nav {
     margin-left: auto;
