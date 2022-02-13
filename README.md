@@ -1,0 +1,2 @@
+# eportfolio 
+This is my e-portfolio, the final project in my master's program at San Jose State. I'm getting my master's in library science (MLIS). In this site, I list and explain the work I've done to become a qualified librarian. I am interested in web design, information literacy, library instruction, and reference service, so much of my work centers around those areas. My work was done in courses throughout this two-year program, as well as tasks at my two part-time jobs, one at a state park museum and the other at an academic library. 
