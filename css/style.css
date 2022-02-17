@@ -166,8 +166,8 @@ COMP D PAGE STYLING
 ----------------------------------------------------*/
 .instagrid {
     display: grid;
-    grid-template-rows: 200px 200px;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
     overflow: auto;
     gap: 10px;
     padding: 10px;
