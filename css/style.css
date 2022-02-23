@@ -166,15 +166,15 @@ COMP D PAGE STYLING
 ----------------------------------------------------*/
 .instagrid {
     display: grid;
-    grid-template-rows: 200px 200px 200px;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-columns: 300px 300px;
     overflow: auto;
     gap: 10px;
     padding: 10px;
 }
  
 .instagrid img {
-    width: 150px;
+    width: 225px;
     height: auto;
     align-content: center;
 }
